@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+	<form id="login" name="login" th:action="@{/login}" method="POST">
+		<input type="text" id="login" class="form-control" name="username"/>
+		<input type="password" id="login" class="form-control" name="password"/>
+		<input type="checkbox" id="remember-me" name="remember-me"/> Manter conectado 
+		<button class="btn btn-raised btn-primary pull-right" type="submit">Entrar</button>
+	</form>
+</body>
+</html>

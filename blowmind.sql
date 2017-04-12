@@ -1,0 +1,6 @@
+
+CREATE DATABASE login;
+USE login;
+DROP TABLE users;
+CREATE TABLE users (id bigint NOT NULL AUTO_INCREMENT, birthdate varchar(255), city varchar(255), confirmcode binary(255), confirmed bit NOT NULL, cowntry varchar(255), email varchar(255), name varchar(255), password varchar(255), role varchar(255), signindate datetime, state varchar(255), first_login bit NOT NULL, position varchar(255), complement varchar(255), document varchar(255), image varchar(255), neighborhood varchar(255), number varchar(255), postal varchar(255), street varchar(255), cellphone varchar(255), telephone varchar(255), PRIMARY KEY (id)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO users (id, birthdate, city, confirmcode, confirmed, cowntry, email, name, password, role, signindate, state, first_login, position, complement, document, image, neighborhood, number, postal, street, cellphone, telephone) VALUES (1, null, null, null, true, null, 'teste@teste.tes', 'Test Account', '$2a$10$e5V5nh.uDVcmbYIw5p3EKepqziUa3jDEByOKaVmXbUwx9ohrHBQPu', 'ROLE_USER', null, null, false, 'Project Manager', null, null, null, null, null, null, null, null, null);
