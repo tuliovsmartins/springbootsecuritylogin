@@ -5,5 +5,8 @@ This is a simple login project using  spring-boot - spring security - hibernate 
 
 On the top of project you will find a file named blowmind.sql, this is the database script to create and add the first user to the project.
 
-to executa de project just run: mvn spring-boor:rum
+user: teste@teste.tes
+password: 123456
+
+to execute the project just run: "mvn spring-boor:rum" inside the project folder
 The mavend should be instaled....
