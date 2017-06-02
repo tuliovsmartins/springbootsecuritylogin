@@ -8,5 +8,5 @@ On the top of project you will find a file named blowmind.sql, this is the datab
 user: teste@teste.tes
 password: 123456
 
-to execute the project just run: "mvn spring-boor:rum" inside the project folder
+to execute the project just run: "mvn spring-boot:rum" inside the project folder
 The mavend should be instaled....
